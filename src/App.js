@@ -6,6 +6,7 @@ import Home from './routes/Home';
 import Navigation from './components/Navigation';
 import Detail from './routes/Detail';
 
+
 function App() {
   return (
     <HashRouter>
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" exact={true} component={Home} />
       <Route path="/about" component={About}/>
       <Route path="/movie-detail" component={Detail} />
+      <Route path = "/moveis-detail" component = {Detail} />
     </HashRouter>
   );
 }
